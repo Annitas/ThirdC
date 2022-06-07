@@ -12,7 +12,7 @@
 
 #endif /* DequeList_hpp */
 #include "List.hpp"
-#include "Iterator.hpp"
+//#include "Iterator.hpp"
 #pragma once
 
 class DequeList : public List {
@@ -20,7 +20,7 @@ private:
     ListD* first;
     int size;
 public:
-    friend class ListIterator;
+    //friend class ListIterator;
     class ListIterator : public Iterator {
     private:
         DequeList *list;

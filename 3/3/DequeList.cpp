@@ -6,7 +6,7 @@
 //
 
 #include "DequeList.hpp"
-//#pragma once
+
 #include "List.hpp"
 #include <iostream>
 #include <exception>

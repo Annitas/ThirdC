@@ -28,8 +28,8 @@ int main(int argc, const char * argv[]) {
         cout<<iter.getElem()<<", ";
     }
     
-    cout<< "" << buf -> getSize() << "\n";
-    cout<< "" << buf -> isEmpty() << "\n";
+    cout<< "Size " << buf -> getSize() << "\n";
+    cout<< "Empty? " << buf -> isEmpty() << "\n";
     try {
         Iterator *iter5 = buf -> findElem(9);
     } catch (int a) {
